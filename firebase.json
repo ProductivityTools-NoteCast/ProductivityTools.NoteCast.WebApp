@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "public",
+    "site": "pt-notecast",
+    "public": "dist/ProductivityTools.NoteCast.WebApp/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
