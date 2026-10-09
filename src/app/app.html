@@ -1,3 +1,14 @@
 <h1>Hello NoteCast</h1>
 
+<p>
+  Backend says:
+  @if (backendHello().text; as text) {
+    <strong>{{ text }}</strong>
+  } @else if (backendHello().error; as error) {
+    <span class="error">{{ error }}</span>
+  } @else {
+    <em>loading…</em>
+  }
+</p>
+
 <router-outlet />
